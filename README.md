@@ -14,9 +14,9 @@
 使用下面的命令将源码从远程仓库拉取到本地，需要本地提前安装好git
 
 ```
-git clone https://git.imooc.com/coding-416/course-online.git
+git clone https://gitee.com/yajoke1024/smart-tree-application.git
 会配置ssh的，可以用ssh:
-git clone ssh://git@git.imooc.com:80/coding-416/course-online.git
+git clone ssh://git@gitee.com:yajoke1024/smart-tree-application.git
 ```
 
 ## 项目模块说明
@@ -60,8 +60,8 @@ npm install
 cd admin
 npm install
 ```
-* 新建数据库courseimooc，并courseimooc，密码courseimooc，参照课程3-1
-* 数据库初始脚本在/doc/db/all.sql（从QQ群文件中下载）
+* 新建数据库courseimooc，并设置密码为密码123456
+* 数据库初始脚本在/doc/db/all.sql
 
 ## 项目启动
 * 启动注册中心：EurekaApplication
@@ -85,6 +85,6 @@ npm install
 账号：test <br> 
 密码：123456 <br>
 ## 资源配置
-所有资源都在/doc/db/resource.json（从QQ群文件中下载），<br>
+所有资源都在/doc/db/resource.json<br>
 需要在控台上将所有的资源配置进去，并在角色管理中配置权限
 权限配置好后，需要重新登录

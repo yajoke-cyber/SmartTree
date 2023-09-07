@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
-    @RequestMapping("/admin/category")
+@RequestMapping("/admin/category")
 public class CategoryController {
 
     private static final Logger LOG = LoggerFactory.getLogger(CategoryController.class);
@@ -30,6 +30,7 @@ public class CategoryController {
         ResponseDto responseDto = new ResponseDto();
         List<CategoryDto> categoryDtoList = categoryService.all();
         responseDto.setContent(categoryDtoList);
+//        ResponseDto是后端json数据格式
         return responseDto;
     }
 

@@ -30,6 +30,7 @@
                 <i class="ace-icon fa fa-circle light-green"></i>
                 &nbsp;
                 <span class="white">{{teacher.position}}</span>
+<!--                双向绑定-->
               </a>
             </div>
           </div>
@@ -60,7 +61,7 @@
 
       </div>
     </div>
-
+<!--表单复用-->
     <div id="form-modal" class="modal fade" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
