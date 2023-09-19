@@ -14,9 +14,7 @@
 使用下面的命令将源码从远程仓库拉取到本地，需要本地提前安装好git
 
 ```
-git clone https://gitee.com/yajoke1024/smart-tree-application.git
-会配置ssh的，可以用ssh:
-git clone ssh://git@gitee.com:yajoke1024/smart-tree-application.git
+git clone https://github.com/yajoke-cyber/SmartTree.git
 ```
 
 ## 项目模块说明
@@ -24,7 +22,7 @@ git clone ssh://git@gitee.com:yajoke1024/smart-tree-application.git
 控台管理，vue cli项目
 * **business**<br>
 核心业务模块，spring boot项目
-* **doc（根据慕课网要求，这部分已移到QQ群文件中）**<br>
+* **doc**<br>
 项目相关的文档，包含项目数据库初始化脚本和所有资源文件
 * **eureka**<br>
 注册中心，spring boot项目
@@ -46,7 +44,7 @@ git clone ssh://git@gitee.com:yajoke1024/smart-tree-application.git
 * 需要本地安装好idea, nodejs，jdk1.8, mysql5.7, navicat（数据库可视化工具）
 * 将下载好的源码，用idea打开
 * 刷新maven依赖
-* 安装vue cli，参照课程4-1
+* 安装vue cli
 ```
 npm install -g @vue/cli
 ```
@@ -60,7 +58,7 @@ npm install
 cd admin
 npm install
 ```
-* 新建数据库courseimooc，并设置密码为密码123456
+* 新建数据库course，并设置密码为密码123456
 * 数据库初始脚本在/doc/db/all.sql
 
 ## 项目启动
@@ -82,8 +80,9 @@ npm install
 账号：18725871531 <br>
 密码：a123456 <br>
 后台地址：http://1.15.110.96/admin/ <br>
-账号：test <br> 
+账号：test <br>
 密码：123456 <br>
+
 ## 资源配置
 所有资源都在/doc/db/resource.json<br>
 需要在控台上将所有的资源配置进去，并在角色管理中配置权限
